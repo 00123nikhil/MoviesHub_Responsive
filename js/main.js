@@ -37,3 +37,24 @@ var swiper = new Swiper(".popular-content", {
         }
     }
 });
+
+
+// Show video
+
+let playButton = document.querySelector('.play-movie');
+let video = document.querySelector('.video-container');
+let closebtn = document.querySelector('.close-video');
+let myvideo = document.querySelector('#myvideo');
+
+playButton.onclick =() =>{
+    video.classList.add("show-video");
+//    Auto play the video
+    myvideo.play();
+};
+
+closebtn.onclick =() =>{
+//   close the video while playing
+    video.classList.remove("show-video");
+    myvideo.pause();
+};
+
