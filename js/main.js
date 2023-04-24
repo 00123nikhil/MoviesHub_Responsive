@@ -1,6 +1,6 @@
 
 var swiper = new Swiper(".popular-content", {
-    slidePerView: 1,
+    slidesPerView: 1,
     spaceBetween: 10,
     autoplay: {
         delay: 755500,
@@ -16,24 +16,24 @@ var swiper = new Swiper(".popular-content", {
     },
     breakpoints: {
         280: {
-            slidePerView: 1,
+            slidesPerView: 1,
             spaceBetween: 10,
         },
         320: {
-            slidePerView: 2,
+            slidesPerView: 2,
             spaceBetween: 10,
         },
         510: {
-            slidePerView: 2,
+            slidesPerView: 2,
             spaceBetween: 10,
         },
         758: {
-            slidePerView: 3,
+            slidesPerView: 3,
             spaceBetween: 15,
         },
         900:{
-            slidePerView: 4,
+            slidesPerView: 4,
             spaceBetween: 20,
-        }
-    }
+        },
+    },
 });
