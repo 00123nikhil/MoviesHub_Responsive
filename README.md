@@ -9,7 +9,7 @@ This is a simple movies website that displays the current Movies and TV shows  i
 - Updated with latest database.
 
 ## Watch Live
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lDQVs1TzGUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
 
