@@ -65,6 +65,8 @@ header {
   left: 0;
   width: 100%;
   background: var(--body-color);
+  z-index: 900;
+  box-shadow: 0 0px 5px black;
 }
 
 /* -- nav ---- */
@@ -1379,7 +1381,8 @@ header {
 }
 
 .highlight{
-  color: crimson;
+  color: rgb(242, 16, 61);
+  font-weight: 700;
 }
 
 @media (max-width: 1170px) {
@@ -1601,4 +1604,10 @@ header {
   .download-links {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* updates ---------------- */
+marquee{
+  background-color: green;
 }
