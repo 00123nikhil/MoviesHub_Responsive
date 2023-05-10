@@ -177,6 +177,8 @@ header {
 
 .home-text {
   padding-left: 40px;
+  color: #1c1a1a;
+  font-weight: 600;
 }
 .home-title {
   font-size: 2rem;
@@ -192,6 +194,9 @@ header {
   align-items: center;
   column-gap: 0.8rem;
   color: var(--text-color);
+}
+.home-text span {
+  color: #1c1a1a;
 }
 .watch-btn .bx {
   font-size: 21px;
@@ -440,6 +445,7 @@ header {
 
 .video-box #myvideo {
   width: 100%;
+  height: auto;
   aspect-ratio: 16/9;
 }
 
@@ -1370,6 +1376,10 @@ header {
 
 .download-links a:hover {
   background-color: var(--hover-color);
+}
+
+.highlight{
+  color: crimson;
 }
 
 @media (max-width: 1170px) {
